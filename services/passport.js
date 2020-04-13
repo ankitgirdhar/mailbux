@@ -18,16 +18,12 @@ passport.deserializeUser((id, done) => {
 passport.use(new GoogleStrategy({
     clientID: keys.googleClientID,
     clientSecret: keys.googleClientSecret,
-    callbackURL: '/auth/google/callback'
-}, (accessToken, refreshToken, profile, done) => {
-
-    User.findOne({ googleId: profile.id}).then((user) => {
-        if(user) {
-            done(null, user);
-
-        } else {
-            new User({ googleId: profile.id}).save().then(copy_user => done(null,copy_user));
-
-        }
-    });
+    callbackURL: '/auth/google/callback',
+    proxy: true
+}, async (accessToken, refreshToken, profile, done) => {
+    const user = await User.findOne({ googleId: profile.id});
+    if(user)
+        return done(null, user);
+    const copy_user = await new User({ googleId: profile.id}).save()
+    done(null,copy_user);
 }));

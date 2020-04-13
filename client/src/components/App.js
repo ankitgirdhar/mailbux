@@ -3,10 +3,11 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
 import Landing from "./Landing";
+import Dashboard from "./DashBoard";
+import SurveyNew from "./surveys/SurveyNew";
 
 import Header from "./Header";
-const DashBoard = () => <h2>DashBoard</h2>
-const SurveyNew = () => <h2>SurveyNew</h2>
+
 
 
 class App extends Component{
@@ -18,10 +19,10 @@ class App extends Component{
         return (
             <div className="container">
                 <BrowserRouter>
-                    <div>
+                    <div className="container">
                         <Header />
                         <Route exact path="/" component={Landing}></Route>
-                        <Route exact path="/surveys" component={DashBoard}></Route>
+                        <Route exact path="/surveys" component={Dashboard}></Route>
                         <Route path="/surveys/new" component={SurveyNew}></Route>
                     </div>
                 </BrowserRouter>

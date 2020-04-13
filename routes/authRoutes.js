@@ -6,7 +6,13 @@ module.exports = (app) => {
         })
     );
 
-    app.get('/auth/google/callback', passport.authenticate('google', passport.authenticate('google'))); // we have code this time.....
+    app.get(
+        '/auth/google/callback',
+        passport.authenticate('google'),
+        (req,res) => {
+            res.redirect('/surveys');
+        }
+    ); // we have code this time.....
 
     app.get('/api/current_user', (req,res) => {
         res.send(req.user);
@@ -14,7 +20,7 @@ module.exports = (app) => {
 
     app.get('/api/logout', (req, res) => {
        req.logout();
-       res.send(req.user);
+       res.redirect('/');
     });
 }
 
