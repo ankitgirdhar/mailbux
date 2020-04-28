@@ -31,10 +31,10 @@ class SurveyForm extends Component {
 
 function validate(values) {
     const errors = {};
-    errors.emails = validateEmails(values.recipients || '');
+    errors.recipients = validateEmails(values.recipients || '');
 
     _.each(formFields, ({name}) => {
-        if(!values[name]) {
+        if(!values[name]) { // key interpolation...
             errors[name] = 'Provide a value';
         }
     });

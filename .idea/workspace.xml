@@ -2,41 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23baaa09-55f3-4c57-b3da-961dd85151aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/DashBoard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/surveys/SurveyField.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/surveys/SurveyFormReview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/surveys/SurveyList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/surveys/SurveyNew.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/surveys/formFields.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reducers/surveysReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/utils/validateEmails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middlewares/requireCredits.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Recipient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Surveys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/surveyRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/Mailer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/DashBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/DashBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/surveys/SurveyFormReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/surveys/SurveyFormReview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/surveys/SurveyList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/surveys/SurveyList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/authReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/setupProxy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/keys.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/requireLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/requireLogin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/authRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/billingRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/billingRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/surveyRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/surveyRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/Mailer.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/Mailer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/passport.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +79,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586483657730</updated>
-      <workItem from="1586483665738" duration="95633000" />
+      <workItem from="1586483665738" duration="97067000" />
+      <workItem from="1587792678195" duration="663000" />
+      <workItem from="1587886314069" duration="6745000" />
+      <workItem from="1587953226787" duration="17396000" />
+      <workItem from="1588081629280" duration="10425000" />
     </task>
     <servers />
   </component>
@@ -116,11 +99,21 @@
       <screen x="-1920" y="-397" width="1920" height="1080" />
     </state>
     <state x="-1222" y="-104" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-1920.-397.1920.1080@-1920.-397.1920.1080" timestamp="1586511153489" />
+    <state x="308" y="200" key="IDE.errors.dialog" timestamp="1587999195514">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="200" key="IDE.errors.dialog/0.0.1440.900/-1920.-55.1920.1080@0.0.1440.900" timestamp="1587999195514" />
     <state x="-1429" y="-199" key="SettingsEditor" timestamp="1586591682487">
       <screen x="-1920" y="-374" width="1920" height="1057" />
     </state>
     <state x="-1429" y="-218" key="SettingsEditor/0.0.1440.900/-1920.-397.1920.1080@-1920.-397.1920.1080" timestamp="1586495089433" />
     <state x="-1429" y="-199" key="SettingsEditor/0.23.1440.877/-1920.-374.1920.1057@-1920.-374.1920.1057" timestamp="1586591682487" />
+    <state x="352" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1588081630421">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="352" y="278" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.-32.1920.1057@0.0.1440.900" timestamp="1587953232708" />
+    <state x="352" y="278" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.-55.1920.1080@0.0.1440.900" timestamp="1588081630421" />
+    <state x="352" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877/-1920.-32.1920.1057@0.23.1440.877" timestamp="1587792687659" />
     <state x="-1295" y="-139" width="670" height="676" key="search.everywhere.popup" timestamp="1586810218300">
       <screen x="-1920" y="-374" width="1920" height="1057" />
     </state>

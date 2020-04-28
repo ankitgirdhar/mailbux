@@ -9,7 +9,6 @@ import SurveyNew from "./surveys/SurveyNew";
 import Header from "./Header";
 
 
-
 class App extends Component{
     componentDidMount() {
         this.props.fetchUser();
@@ -19,12 +18,10 @@ class App extends Component{
         return (
             <div className="container">
                 <BrowserRouter>
-                    <div className="container">
                         <Header />
                         <Route exact path="/" component={Landing}></Route>
                         <Route exact path="/surveys" component={Dashboard}></Route>
-                        <Route path="/surveys/new" component={SurveyNew}></Route>
-                    </div>
+                        <Route exact path="/surveys/new" component={SurveyNew}></Route>
                 </BrowserRouter>
             </div>
         );

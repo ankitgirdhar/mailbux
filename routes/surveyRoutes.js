@@ -22,7 +22,7 @@ module.exports = (app) => {
 
     app.post('/api/surveys/webhooks', (req, res) => {
         const p = new Path('/api/surveys/:surveyId/:choice');
-        const events = _.chain(req.body).map(({url,email}) => {
+        _.chain(req.body).map(({url,email}) => {
             const match = p.test(new URL(url).pathname);
             if(match) {
                 return {email, surveyId: match.surveyId, choice: match.choice};
@@ -33,7 +33,7 @@ module.exports = (app) => {
             Survey.updateOne({
                 _id: surveyId,
                 recipients: {
-                    $elemMatch: {email, responded: false}
+                    $elemMatch: {email: email, responded: false}
                 }
             }, {
                 $inc: { [choice] : 1},
@@ -42,6 +42,7 @@ module.exports = (app) => {
             }).exec();
             }).value();
 
+        res.send({});
 
     });
     app.post('/api/surveys', requireLogin, requireCredits, async (req,res) => {
@@ -64,7 +65,7 @@ module.exports = (app) => {
             const user = await req.user.save();
             res.send(user);
         } catch(err) {
-            res.send(422).send(err);
+            res.status(422).send(err);
         }
 
     });
