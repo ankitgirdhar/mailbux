@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23baaa09-55f3-4c57-b3da-961dd85151aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/setupProxy.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <workItem from="1587792678195" duration="663000" />
       <workItem from="1587886314069" duration="6745000" />
       <workItem from="1587953226787" duration="17396000" />
-      <workItem from="1588081629280" duration="11327000" />
+      <workItem from="1588081629280" duration="14363000" />
     </task>
     <servers />
   </component>
@@ -95,10 +95,11 @@
     </state>
     <state x="-1429" y="-218" key="SettingsEditor/0.0.1440.900/-1920.-397.1920.1080@-1920.-397.1920.1080" timestamp="1586495089433" />
     <state x="-1429" y="-199" key="SettingsEditor/0.23.1440.877/-1920.-374.1920.1057@-1920.-374.1920.1057" timestamp="1586591682487" />
-    <state x="352" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1588081630421">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="-1451" y="279" key="com.intellij.ide.util.TipDialog" timestamp="1588178114403">
+      <screen x="-1920" y="-55" width="1920" height="1080" />
     </state>
     <state x="352" y="278" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.-32.1920.1057@0.0.1440.900" timestamp="1587953232708" />
+    <state x="-1451" y="279" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.-55.1920.1080@-1920.-55.1920.1080" timestamp="1588178114403" />
     <state x="352" y="278" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.-55.1920.1080@0.0.1440.900" timestamp="1588081630421" />
     <state x="352" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877/-1920.-32.1920.1057@0.23.1440.877" timestamp="1587792687659" />
     <state x="-1295" y="-139" width="670" height="676" key="search.everywhere.popup" timestamp="1586810218300">
